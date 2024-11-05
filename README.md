@@ -1,4 +1,4 @@
--# NSE Options Chain Data Retrieval and Analysis
+# NSE Options Chain Data Retrieval and Analysis
 
 This script interacts with the National Stock Exchange of India (NSE) API to retrieve options chain data for specific instruments, filter data based on parameters like call/put options, and calculate margin requirements and premium earnings based on strike prices. The script includes two primary functions: one for fetching and processing options data and another for calculating financial metrics related to options trading.
 
@@ -11,7 +11,7 @@ pip install requests pandas
 
 ### Dependencies
 - `requests` - For handling HTTP requests to the NSE API.
-- `pandas` - For structuring and analyzing the retrieved data.
+- `pandas` - For structuring and analyzing the retrieved data
 - `time` - For managing delay to avoid being blocked by the NSE server.
 
 ## Code Structure and Functionality
@@ -119,3 +119,7 @@ print(df_with_calculations)
 - **Credentials**: NSE's API does not require credentials but may limit or block access for high-volume requests.
 
 ## AI Tools Used
+
+- Used ChatGPT for refining the code and detecting errors
+- Used ChatGPT for learning about the working of NSE api
+- Used ChatGPT for refining my readme document
